@@ -1,0 +1,16 @@
+{
+  "name": "pratica1",
+  "version": "1.0.0",
+  "description": "Middleware com Restfy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Samuel Alves Chagas GES246",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^11.1.0"
+  }
+}
