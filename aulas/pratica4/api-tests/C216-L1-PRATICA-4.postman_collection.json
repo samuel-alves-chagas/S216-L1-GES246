@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "1bbbe0c7-8735-4a86-aa90-5739d185cb8b",
+		"_postman_id": "7ee7861e-d5ee-41c7-86f2-7ee2ad3425be",
 		"name": "C216-L1-PRATICA-4",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
-		"_exporter_id": "23505320"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34101783"
 	},
 	"item": [
 		{
@@ -27,14 +27,27 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nome\": \"Amanda de Souza\",\r\n    \"disciplina\": \"Algoritmos\",\r\n    \"email\": \"amanda.souza@inatel.br\"\r\n}",
+					"raw": "{\r\n    \"nome\":\"Soned\",\r\n    \"email\": \"soned@inatel.br\",\r\n    \"disciplina\": \"Redes 1\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "http://localhost:5000/api/v1/professor/inserir"
+				"url": {
+					"raw": "http://localhost:5000/api/v1/professor/inserir",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"professor",
+						"inserir"
+					]
+				}
 			},
 			"response": []
 		},
@@ -59,14 +72,27 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nome\": \"João Paulo Carvalho\",\r\n    \"disciplina\": \"Calculo\",\r\n    \"email\": \"joao.c.carvalho@inatel.br\"\r\n}",
+					"raw": "{\r\n    \"nome\":\"Guaracy\",\r\n    \"email\": \"guaracy@inatel.br\",\r\n    \"disciplina\": \"Algebra\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "http://localhost:5000/api/v1/professor/inserir"
+				"url": {
+					"raw": "http://localhost:5000/api/v1/professor/inserir",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"professor",
+						"inserir"
+					]
+				}
 			},
 			"response": []
 		},
@@ -89,7 +115,20 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:5000/api/v1/professor/listar"
+				"url": {
+					"raw": "http://localhost:5000/api/v1/professor/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"professor",
+						"listar"
+					]
+				}
 			},
 			"response": []
 		},
@@ -114,14 +153,27 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 2,\r\n    \"nome\":\"João Pedro Carvalho\",\r\n    \"disciplina\": \"Algebra\",\r\n    \"email\": \"joao.carvalho@inatel.br\"\r\n}",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"nome\":\"Rodrigo Guaracy\",\r\n    \"email\": \"rodrigo.guaracy@inatel.br\",\r\n    \"disciplina\": \"Algebra\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "http://localhost:5000/api/v1/professor/atualizar"
+				"url": {
+					"raw": "http://localhost:5000/api/v1/professor/atualizar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"professor",
+						"atualizar"
+					]
+				}
 			},
 			"response": []
 		},
@@ -144,7 +196,20 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:5000/api/v1/professor/listar"
+				"url": {
+					"raw": "http://localhost:5000/api/v1/professor/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"professor",
+						"listar"
+					]
+				}
 			},
 			"response": []
 		},
@@ -169,14 +234,27 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 1\r\n}",
+					"raw": "{\r\n    \"id\":2\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "http://localhost:5000/api/v1/professor/excluir"
+				"url": {
+					"raw": "http://localhost:5000/api/v1/professor/excluir",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"professor",
+						"excluir"
+					]
+				}
 			},
 			"response": []
 		},
@@ -199,7 +277,20 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:5000/api/v1/professor/listar"
+				"url": {
+					"raw": "http://localhost:5000/api/v1/professor/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"professor",
+						"listar"
+					]
+				}
 			},
 			"response": []
 		},
@@ -231,7 +322,20 @@
 						}
 					}
 				},
-				"url": "http://localhost:5000/api/v1/database/reset"
+				"url": {
+					"raw": "http://localhost:5000/api/v1/database/reset",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"database",
+						"reset"
+					]
+				}
 			},
 			"response": []
 		},
@@ -254,7 +358,20 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:5000/api/v1/professor/listar"
+				"url": {
+					"raw": "http://localhost:5000/api/v1/professor/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"professor",
+						"listar"
+					]
+				}
 			},
 			"response": []
 		}
