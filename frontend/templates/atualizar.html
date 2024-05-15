@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atualizar Aluno</title>
+    <title>Atualizar Professor</title>
 </head>
 <body>
-    <h1>Atualizar Aluno</h1>
-    <form action="/atualizar/{{ aluno.id }}" method="POST">
+    <h1>Atualizar Professor</h1>
+    <form action="/atualizar/{{ professor.id }}" method="POST">
         <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" value="{{ aluno.nome }}"><br>
-        <label for="curso">Curso:</label><br>
-        <input type="text" id="curso" name="curso" value="{{ aluno.curso }}"><br>
-        <label for="data_nascimento">Data de Nascimento:</label><br>
-        <input type="text" id="data_nascimento" name="data_nascimento" value="{{ aluno.data_nascimento }}"><br><br>
+        <input type="text" id="nome" name="nome" value="{{ professor.nome }}"><br>
+        <label for="disciplina">Disciplina:</label><br>
+        <input type="text" id="disciplina" name="disciplina" value="{{ professor.disciplina }}"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" value="{{ professor.email }}"><br><br>
         <input type="submit" value="Atualizar">
     </form>
 </body>
